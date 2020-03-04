@@ -1,11 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
+import Quotes from "./components/Quotes";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>App</h1>
+      <h1>Chuck Norris Jokes</h1>
+      <Quotes />
     </div>
   );
 }
